@@ -3,109 +3,109 @@
   "latitud": 41.3851,
   "longitud": 2.1734,
   "data": "09/05/2026",
-  "generació": "2026-05-09 11:25:03",
+  "generació": "2026-05-09 23:37:20",
   "temperatures_horàries": [
     {
-      "hora": "2026-05-09T00:00",
-      "temperatura_C": 16.1
+      "hora": "2026-05-10T00:00",
+      "temperatura_C": 15.0
     },
     {
-      "hora": "2026-05-09T01:00",
-      "temperatura_C": 15.7
+      "hora": "2026-05-10T01:00",
+      "temperatura_C": 14.7
     },
     {
-      "hora": "2026-05-09T02:00",
-      "temperatura_C": 15.6
+      "hora": "2026-05-10T02:00",
+      "temperatura_C": 14.4
     },
     {
-      "hora": "2026-05-09T03:00",
-      "temperatura_C": 15.4
+      "hora": "2026-05-10T03:00",
+      "temperatura_C": 14.0
     },
     {
-      "hora": "2026-05-09T04:00",
-      "temperatura_C": 15.3
+      "hora": "2026-05-10T04:00",
+      "temperatura_C": 13.8
     },
     {
-      "hora": "2026-05-09T05:00",
-      "temperatura_C": 15.4
+      "hora": "2026-05-10T05:00",
+      "temperatura_C": 13.7
     },
     {
-      "hora": "2026-05-09T06:00",
-      "temperatura_C": 15.4
+      "hora": "2026-05-10T06:00",
+      "temperatura_C": 13.9
     },
     {
-      "hora": "2026-05-09T07:00",
-      "temperatura_C": 15.3
+      "hora": "2026-05-10T07:00",
+      "temperatura_C": 14.1
     },
     {
-      "hora": "2026-05-09T08:00",
-      "temperatura_C": 15.7
+      "hora": "2026-05-10T08:00",
+      "temperatura_C": 14.8
     },
     {
-      "hora": "2026-05-09T09:00",
+      "hora": "2026-05-10T09:00",
       "temperatura_C": 16.6
     },
     {
-      "hora": "2026-05-09T10:00",
-      "temperatura_C": 17.0
+      "hora": "2026-05-10T10:00",
+      "temperatura_C": 18.4
     },
     {
-      "hora": "2026-05-09T11:00",
-      "temperatura_C": 17.7
+      "hora": "2026-05-10T11:00",
+      "temperatura_C": 19.8
     },
     {
-      "hora": "2026-05-09T12:00",
-      "temperatura_C": 18.3
+      "hora": "2026-05-10T12:00",
+      "temperatura_C": 20.7
     },
     {
-      "hora": "2026-05-09T13:00",
-      "temperatura_C": 18.7
+      "hora": "2026-05-10T13:00",
+      "temperatura_C": 21.1
     },
     {
-      "hora": "2026-05-09T14:00",
-      "temperatura_C": 18.5
+      "hora": "2026-05-10T14:00",
+      "temperatura_C": 21.8
     },
     {
-      "hora": "2026-05-09T15:00",
-      "temperatura_C": 18.7
+      "hora": "2026-05-10T15:00",
+      "temperatura_C": 22.3
     },
     {
-      "hora": "2026-05-09T16:00",
-      "temperatura_C": 18.3
+      "hora": "2026-05-10T16:00",
+      "temperatura_C": 22.2
     },
     {
-      "hora": "2026-05-09T17:00",
-      "temperatura_C": 18.0
+      "hora": "2026-05-10T17:00",
+      "temperatura_C": 22.1
     },
     {
-      "hora": "2026-05-09T18:00",
-      "temperatura_C": 16.8
+      "hora": "2026-05-10T18:00",
+      "temperatura_C": 21.5
     },
     {
-      "hora": "2026-05-09T19:00",
-      "temperatura_C": 16.2
+      "hora": "2026-05-10T19:00",
+      "temperatura_C": 21.0
     },
     {
-      "hora": "2026-05-09T20:00",
-      "temperatura_C": 15.8
+      "hora": "2026-05-10T20:00",
+      "temperatura_C": 20.2
     },
     {
-      "hora": "2026-05-09T21:00",
-      "temperatura_C": 15.7
+      "hora": "2026-05-10T21:00",
+      "temperatura_C": 19.3
     },
     {
-      "hora": "2026-05-09T22:00",
-      "temperatura_C": 15.5
+      "hora": "2026-05-10T22:00",
+      "temperatura_C": 18.6
     },
     {
-      "hora": "2026-05-09T23:00",
-      "temperatura_C": 15.6
+      "hora": "2026-05-10T23:00",
+      "temperatura_C": 17.9
     }
   ],
   "resum": {
-    "temperatura_maxima_C": 18.7,
-    "temperatura_minima_C": 15.3,
-    "temperatura_mitjana_C": 16.55
+    "temperatura_maxima_C": 22.3,
+    "temperatura_minima_C": 13.7,
+    "temperatura_mitjana_C": 18.0
   },
   "font": "Open-Meteo API (https://open-meteo.com/)"
 }

@@ -1,0 +1,46 @@
+name: Temperatures Diàries - Barcelona
+
+on:
+  schedule:
+    # 22:59 UTC = 23:59 CET (UTC+1 hivern) / 00:59 CEST (UTC+2 estiu)
+    - cron: '59 22 * * *'
+  workflow_dispatch:  # Permet execució manual per proves
+
+jobs:
+  fetch-temperatures:
+    name: Obtenir i guardar temperatures de Barcelona
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write  # Necessari per fer commit i push
+
+    steps:
+      - name: Clonar el repositori
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instal·lar dependències
+        run: pip install requests
+
+      - name: Obtenir temperatures del dia
+        run: python temperatures.py
+
+      - name: Configurar identitat Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit i push del fitxer JSON
+        run: |
+          git add temp_*.json
+          if git diff --staged --quiet; then
+            echo "Cap canvi per fer commit (fitxer ja existent)"
+          else
+            git commit -m "Temperatures $(date +'%d/%m/%Y') - Barcelona"
+            git push
+            echo "Fitxer JSON pujat correctament!"
+          fi

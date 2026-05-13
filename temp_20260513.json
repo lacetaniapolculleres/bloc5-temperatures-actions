@@ -1,0 +1,111 @@
+{
+  "ciutat": "Barcelona",
+  "latitud": 41.3851,
+  "longitud": 2.1734,
+  "data": "13/05/2026",
+  "generació": "2026-05-13 23:49:25",
+  "temperatures_horàries": [
+    {
+      "hora": "2026-05-14T00:00",
+      "temperatura_C": 16.5
+    },
+    {
+      "hora": "2026-05-14T01:00",
+      "temperatura_C": 16.2
+    },
+    {
+      "hora": "2026-05-14T02:00",
+      "temperatura_C": 15.8
+    },
+    {
+      "hora": "2026-05-14T03:00",
+      "temperatura_C": 15.4
+    },
+    {
+      "hora": "2026-05-14T04:00",
+      "temperatura_C": 15.2
+    },
+    {
+      "hora": "2026-05-14T05:00",
+      "temperatura_C": 15.1
+    },
+    {
+      "hora": "2026-05-14T06:00",
+      "temperatura_C": 15.0
+    },
+    {
+      "hora": "2026-05-14T07:00",
+      "temperatura_C": 14.3
+    },
+    {
+      "hora": "2026-05-14T08:00",
+      "temperatura_C": 14.3
+    },
+    {
+      "hora": "2026-05-14T09:00",
+      "temperatura_C": 15.3
+    },
+    {
+      "hora": "2026-05-14T10:00",
+      "temperatura_C": 16.7
+    },
+    {
+      "hora": "2026-05-14T11:00",
+      "temperatura_C": 18.2
+    },
+    {
+      "hora": "2026-05-14T12:00",
+      "temperatura_C": 19.9
+    },
+    {
+      "hora": "2026-05-14T13:00",
+      "temperatura_C": 21.7
+    },
+    {
+      "hora": "2026-05-14T14:00",
+      "temperatura_C": 22.5
+    },
+    {
+      "hora": "2026-05-14T15:00",
+      "temperatura_C": 23.6
+    },
+    {
+      "hora": "2026-05-14T16:00",
+      "temperatura_C": 23.7
+    },
+    {
+      "hora": "2026-05-14T17:00",
+      "temperatura_C": 23.3
+    },
+    {
+      "hora": "2026-05-14T18:00",
+      "temperatura_C": 22.9
+    },
+    {
+      "hora": "2026-05-14T19:00",
+      "temperatura_C": 21.3
+    },
+    {
+      "hora": "2026-05-14T20:00",
+      "temperatura_C": 17.7
+    },
+    {
+      "hora": "2026-05-14T21:00",
+      "temperatura_C": 15.9
+    },
+    {
+      "hora": "2026-05-14T22:00",
+      "temperatura_C": 15.2
+    },
+    {
+      "hora": "2026-05-14T23:00",
+      "temperatura_C": 15.4
+    }
+  ],
+  "resum": {
+    "temperatura_maxima_C": 23.7,
+    "temperatura_minima_C": 14.3,
+    "temperatura_mitjana_C": 17.96
+  },
+  "font": "Open-Meteo API (https://open-meteo.com/)"
+}
